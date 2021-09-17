@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+
+*{
+    margin  :0;
+    padding :0;
+    box-sizing: border-box;
+}
+:root {
+    --blue: rgb(1, 41, 112);
+     --white:#FFF;
+     --gray:#ccc;
+
+  }
+a{
+ text-decoration: none !important;
+}
+a i:hover{
+    transform: translate(10px,0);
+    transition: 2s;
+     
+}
+ul{
+list-style: none;
+}
+ol, ul{
+    padding-left: 0 !important;
+}
+
+
+.cus-nav{
+    margin: 0px 10%;
+}
+
+
+
+
+.logo img{
+    width:50%;
+}
+
+.nav{
+    padding:  0 20px !important;
+    font-size: 20px;
+}
+
+.carousel{
+    /* width: 100% !important; */
+    height: 600px !important;  
+}
+.carousel-caption {
+    position: absolute;
+    right: 15% !important;
+    top: 50%;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom:  !important; */
+    left: 15% !important;
+    /* padding-top: 1rem !important;
+    padding-bottom: 1rem !important; */
+    color: #fff !important;
+    /* text-align: center; */
+}
+
+
+/* Text imonial */
+
+.team_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.team_overlap {
+    /* width: 350px; */
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin: 40px 0px;
+    
+}
+
+.team_overlap img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.team_card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 41, 112,0.8);
+    top: 100%;
+    left: 0;
+    position: absolute;
+    transition: all 3s;
+}
+
+.team_overlap:hover .team_card {
+    top: 0;
+}
+.team_card h1{
+    color: #Fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.team_card h3{
+    color:lightgray;
+    text-align: center;
+    padding-top: 5px;
+}
+.team_card p{
+    color:lightgray;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+/* .team_card .btn  a {
+    border: 1px solid #fff !important;
+    padding: 20px;
+    background-color: rgb(1, 41, 112) !important;
+    color: black;
+    text-decoration: none;
+    position: relative;
+} */
+
+.team_heading h1{
+color:rgb(1, 41, 112) =;
+font-size:30px;
+}
+.btnn{
+    border:1px solid rgb(1, 41, 112) !important;
+    padding: 10px 20px !important;
+    background-color: rgb(1, 41, 112) !important;
+}
+.btnn a{
+text-decoration: none;
+color: #fff;
+}
+
+
+
+
+
+
+
+/* footer */
+.icon{
+    font-size: 30px;
+    color: lightgrey;     
+}
+.icon_2{
+font-size:12px;
+color: lightgray;
+}
+
+.footer_link_one h4{ 
+    color: rgb(1, 41, 112);
+}
+.footer_link_one ul li a{
+    color:rgb(75, 109, 171);
+    /* margin:40px 0; */
+}
+.footer_link_two h4{ 
+    color: rgb(1, 41, 112);
+
+}
+.footer_link_two ul li a{
+    color:rgb(75, 109, 171)
+}
+.footer-container
+{
+    background-color:#f6f9ff;
+}
+.copyright{
+    background-color:#f6f9ff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    }
+    .copyright p{
+        padding: 30px 0;
+    }
+    .copyright span{
+        color:rgb(1, 41, 112);
+    }
+    .copyright a{
+        color: rgb(1, 41, 112);
+    }
+    
+    @media(max-width:768px){
+        .cus-nav{
+            margin: 0px;
+        }
+    }
+
+
+
+    /* Pakistan cases page */
+
+/*/ start count stats /*/ 
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+.box{
+    background-color: var(--blue);
+    color: var(--white) !important;
+}
+.box a{
+    color: var(--white) !important;
+    padding:20px 20px;    
+}
+.box a:hover{
+    color: var(--blue) !important;
+    background-color: var(--white) !important;
+}
+
+
+.btn{
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    border-color: var(--blue);
+}
+.main-heading{
+    color:var(--blue);
+}
+.icon_1{
+    font-size:45px;
+    
+}
+/*/ end count stats /*/
+
+
+/* Start history page */
+
+.covid_heading{
+color: var(--blue) ;
+}
+.history-paragraph{
+    color:var(--gray)
+}
