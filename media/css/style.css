@@ -45,27 +45,7 @@ ol, ul{
     font-size: 20px;
 }
 
-.carousel-item{
 
-    padding:2px 0;
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-}
-
-
-.carousel-captions {
-    position: absolute;
-    right: 0%;
-    /* bottom: 0px; */
-    top:50%;
-    left: 10%;
-    /* z-index: 10; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-    color: rgb(255, 255, 255);
-    /* text-align: center; */
-}
 
 
 /* Text imonial */

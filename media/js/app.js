@@ -23,5 +23,4 @@ $('.counting').each(function() {
 
   });  
   
-
 });
