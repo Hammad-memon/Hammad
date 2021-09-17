@@ -191,12 +191,7 @@ color: lightgray;
         color: rgb(1, 41, 112);
     }
     
-    @media(max-width:768px){
-        .cus-nav{
-            margin: 0px;
-        }
-    }
-
+  
 
 
     /* Pakistan cases page */
@@ -245,16 +240,36 @@ section#counter-stats {
 }
 .icon_1{
     font-size:45px;
-    
 }
 /*/ end count stats /*/
-
-
 /* Start history page */
-
 .covid_heading{
 color: var(--blue) ;
 }
 .history-paragraph{
     color:var(--gray)
+}
+.prevent_container{
+    width:60% !important;
+    margin:0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.list li {
+list-style-type: square !important;
+font-size:25px;
+line-height:4rem;
+color: rgb(1, 41, 112);
+}
+
+@media(max-width:768px){
+    .cus-nav{
+        margin: 0px;
+    }
+    .prevent_container{
+        width:100% !important;
+        margin:0 auto !important
+    }
+
 }
